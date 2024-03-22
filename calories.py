@@ -6,8 +6,8 @@ import os
 import atexit
 
 url = "https://trackapi.nutritionix.com/v2/natural/nutrients"
-key = "{app key}"
-id = "{app id}"
+key = "{app-key}"
+id = "{app-id}"
 
 headers = {'Content-Type': 'application/json', 'x-app-id': id, 'x-app-key': key}
 
